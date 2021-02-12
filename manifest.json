@@ -1,0 +1,14 @@
+{
+  "name": "Microsoft Teams - Hide the Left Bar",
+  "version": "0.0.1",
+  "description": "Hide the left bar on the Microsoft Teams site.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://teams.microsoft.com/*"],
+      "all_frames": true,
+      "js": ["script.js"],
+      "css" : ["teams.css"]
+    }
+]
+}

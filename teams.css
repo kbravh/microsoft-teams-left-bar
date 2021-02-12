@@ -1,0 +1,27 @@
+.left-rail-toggle {
+  height: 56px;
+  opacity: 0.9;
+}
+
+.left-rail-toggle * {
+  color: 0xffffff;
+  font-size: 1rem;
+}
+
+.left-rail-toggle button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.ts-left-rail-wrapper.hidden {
+  width: 0;
+}
