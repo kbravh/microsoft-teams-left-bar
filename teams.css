@@ -22,6 +22,11 @@
   -moz-appearance: none;
 }
 
+.ts-left-rail-wrapper {
+  transition: .22s all ease-in-out;
+  will-change: transform;
+}
+
 .ts-left-rail-wrapper.hidden {
   width: 0;
 }
